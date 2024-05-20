@@ -162,7 +162,7 @@ h4{
 }
 
 
-.comp{
+.bts{
     background: #101010;
     width: 100%;
     padding: 100px 0px;
@@ -211,20 +211,35 @@ h4{
 
 h5{
     color: white;
-    font-size: 23px;
+    font-size: 20px;
     margin-bottom: 15px;
 }
 
 
+.bts h5{
+    color:#00F99F;
+}
+
+.veille h5{
+    color:#00F99F;
+}
+
+.veille btn{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
 .pra p{
     color: #fcfc;
-    font-size: 16px;
+    font-size: 12px;
     line-height: 27px;
     margin-bottom: 25px;
 }
 
 
-.formations{
+.veille{
     background: #101010;
     width: 100%;
     padding: 100px 0px;
@@ -284,6 +299,28 @@ h5{
     background-color: transparent;
     border: 2px solid #00F99F;
     cursor: pointer;
+}
+
+.flex-container{
+    width:100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flex-box{
+    width: 200px;
+    height: 200px;
+    background: linear-gradient(green,yellow);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    line-height: 200px;
+    border-radius: 20px;
+    margin: 10px;
+
 }
 
 
